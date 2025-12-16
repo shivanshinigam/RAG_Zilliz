@@ -12,11 +12,11 @@ from langchain.chains import RetrievalQA
 # 1. SET ENVIRONMENT VARIABLES
 # =====================================================
 # Gemini API Key from Google AI Studio
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBmxzbCe2KclpmXTRV5fwAL1POmkhSAYuI"
+os.environ["GOOGLE_API_KEY"] = ""
 
 # Zilliz Cloud credentials
-ZILLIZ_ENDPOINT = "https://in03-df0c9fc1ceb58be.serverless.aws-eu-central-1.cloud.zilliz.com"
-ZILLIZ_API_KEY = "f58f074943e1058022593921b0d058ea93ece8af8cfbb60fb5c1d4ca96ed027ce3020a43b34119e6a1e8ecea56f926bbbb390278"
+ZILLIZ_ENDPOINT = ""
+ZILLIZ_API_KEY = ""
 
 # =====================================================
 # 2. SAMPLE KNOWLEDGE BASE (EMBEDDED DATA)
